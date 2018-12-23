@@ -1,0 +1,107 @@
+@import"fonts.css";
+
+html{
+	background-color: #F5F5F5;
+}
+h1 {
+	font-size: 86px;
+}
+h2 {
+	font-size: 50px;
+}
+p{
+	font-size: 26px;
+}
+html, body, #main{
+	width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+}
+
+
+.container{
+	max-width: 930px;
+	margin: Auto;
+	position: relative;
+}
+
+
+body{
+	position: relative;
+	overflow-x: hidden; 
+
+}
+
+header{
+	max-width: 1280px;
+	margin: Auto;
+}
+
+.header_content{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+nav>ul{
+	display: flex;
+}
+nav>ul>li{
+	list-style: none;
+	margin-left: 20px;
+}
+nav>ul>li>a{
+	text-decoration: none;
+	color: #000;
+}
+
+.take_content{
+	text-align: center;
+
+}
+.the-explorer_content{
+	display: flex;
+	flex-direction: column;
+
+	padding-left: 50%;
+}
+
+.steps{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer_content{
+	display: flex;
+
+
+}
+
+.copyright_content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+footer{
+
+	width: 100%;
+margin-top:100px;
+position:relative;
+background:#696969;
+
+}
+footer:before{
+content:'';
+position:absolute;
+top:-50px;
+width:0;
+height:0;
+border-bottom: 50px solid #696969; 
+border-left: 100vw solid transparent;  
+
+}
