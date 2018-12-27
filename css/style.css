@@ -1,80 +1,217 @@
 @import"fonts.css";
 
-html{
-	background-color: #F5F5F5;
+body{
+	background: url(../img/back3.png)  top center;
+	background-size: cover;
+	overflow-x: hidden;
+	font-family: "PlumbC"
+
 }
-h1 {
-	font-size: 86px;
+
+.left-footprint{
+	width: 45px;
+	height: 80px;
+	transform: rotate(180deg);
+
 }
-h2 {
+
+.h1_rof{
+	font-size: 100px;
+	font-family: 'PlumbC-Bold';
+	color: #3e3d42;
+	line-height: 90px;
+	
+}
+
+.h2_bold_dark{
 	font-size: 50px;
+	font-family: 'PlumbC-Bold';
+	color: #3e3d42;
+	line-height: 60px;
+	margin: 0;
+
+
 }
-p{
-	font-size: 26px;
+.h3_bold_dark{
+	font-size: 30px;
+	font-family: 'PlumbC-Bold';
+	color: #3e3d42;
+	line-height: 30px;
+		text-transform: uppercase;
+		margin-right: -15px;
 }
-html, body, #main{
+.h3_green_light{
+font-size: 36px;
+color: #557704;
+line-height: 60px;
+ margin-bottom: -15px;
+
+}
+
+.p_level{
+font-size: 20px;
+font-family: 'PlumbC';
+line-height: 28px;
+color: #3e3d42;
+max-width: 365px;
+}
+
+.p_level_submain{
+font-size: 14px;
+font-family: 'PlumbC';
+line-height: 22px;
+color: #72707f;
+}
+
+html, body{
 	width: 100%;
     padding: 0;
     margin: 0;
     height: 100%;
 
 }
+main{
+	position: relative;
 
+}
+.fixed{
+	position: fixed;
+	z-index: 1;
+	padding-left: 2%;
+	background-image: url(../img/girl1.png) ;
 
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+.fixed2{
+	position: fixed;
+	z-index: 1;
+	padding-left: 2%;
+	background-image: url(../img/girl2.png) ;
+
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+.fixed3{
+	position: fixed;
+	z-index: 1;
+	padding-left: 2%;
+	background-image: url(../img/girl3.png) ;
+
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+.fixed4{
+	position: fixed;
+	z-index: 1;
+	padding-left: 2%;
+	background-image: url(../img/girl4.png) ;
+
+	background-repeat: no-repeat;
+	opacity: 0;
+}
 .container{
-	max-width: 930px;
-	margin: Auto;
 	position: relative;
+	max-width: 970px;
+	margin:0 Auto;
 }
-
-
-body{
+.container-fluent{
 	position: relative;
-	overflow-x: hidden; 
-
+	max-width: 1230px;;
+	margin:0 Auto;
 }
-
-header{
-	max-width: 1280px;
-	margin: Auto;
-}
-
 .header_content{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
+	max-width: 1230px;
+	margin: 0 Auto;
 }
-
+nav{
+	width: 900px;
+}
 nav>ul{
+	padding-top: 20px;
 	display: flex;
-}
-nav>ul>li{
+	justify-content: space-between;
 	list-style: none;
-	margin-left: 20px;
 }
+
 nav>ul>li>a{
 	text-decoration: none;
-	color: #000;
+	color: #3e3d42;
+	line-height: 84px;
+	font-size: 18px;
 }
 
+.take_content p{
+	font-size: 27px;
+	font-family: 'Georgia';
+	font-style: italic;
+	color: #72707f;
+	line-height: 36px;
+
+}
+.take_content p>b{
+	font-size: 27px;
+	font-family: 'Georgia';
+	font-style: normal;
+	color: #72707f;
+}
 .take_content{
 	text-align: center;
+	padding:0 10px 85px 10px;
 
 }
-.the-explorer_content{
+
+.level_main{
+	max-width: 400px;
+	padding: 0 0 2% 50%;
+}
+
+/*.learn-about{
+margin: 0 Auto;
+max-width: 1420px;
+background-image: url(../img/123.png);
+background-repeat: no-repeat;
+background-position: right ;
+}*/
+
+.level_submain{
 	display: flex;
-	flex-direction: column;
-
-	padding-left: 50%;
+	align-items: center;
+		padding-left:41%;
 }
+
+.circle_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*width: 205px;
+  height: 205px;*/
+  cursor: pointer;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.text-submain{
+	padding-left: 25px;
+	padding-right: 125px;
+}
+
 
 .steps{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 22px;
+	position: relative;
+	
 }
 
+.ground{
+	
+}
 .footer_content{
 	display: flex;
 
@@ -95,7 +232,7 @@ position:relative;
 background:#696969;
 
 }
-footer:before{
+/*footer:before{
 content:'';
 position:absolute;
 top:-50px;
@@ -103,5 +240,20 @@ width:0;
 height:0;
 border-bottom: 50px solid #696969; 
 border-left: 100vw solid transparent;  
+
+}*/
+
+.img-in-level{
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    min-width: : 100%;
+}
+
+.parallaxable {
+
+    position: absolute;
+    width: auto;
+    height: auto;
 
 }
