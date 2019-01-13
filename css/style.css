@@ -169,7 +169,7 @@ nav>ul>li>a:active{
 	color: green;
 }
 
-nav>ul>li>.active, :hover{
+nav>ul>li>.active, nav>ul>li>a:hover{
 	color: gray;
 }
 .take_content p{
