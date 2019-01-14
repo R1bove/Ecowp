@@ -165,9 +165,6 @@ nav>ul>li>a{
 	line-height: 84px;
 	font-size: 18px;
 }
-nav>ul>li>a:active{
-	color: green;
-}
 
 nav>ul>li>.active, nav>ul>li>a:hover{
 	color: gray;
@@ -384,4 +381,12 @@ z-index: 0;
 
 .hidden {
 	display: none;
+}
+
+
+.animation{
+	-webkit-animation-duration: 0.5s;
+animation-duration: 0.5s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
 }
