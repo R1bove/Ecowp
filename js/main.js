@@ -120,12 +120,12 @@ function getCurrentSectionInfo(currentScroll) {
 
 //Function for fixed girl to footer section
 function checkOffset() {
-    if ($('.girl4').offset().top + $('.girl3').height() >= $('#footer').offset().top) {
+    if ($('.girl4').offset().top + $('.girl3').height() >= $('#footer').offset().top - 160) {
         $('.girl4').css('position', 'absolute');
     }
 
 
-    if ($(document).scrollTop() + window.innerHeight < $('#footer').offset().top) {
+    if ($(document).scrollTop() + window.innerHeight < $('#footer').offset().top - 110) {
         $('.girl4').css('position', 'fixed');
     }
 
