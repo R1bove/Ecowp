@@ -1,17 +1,23 @@
 @font-face {
 	font-family: 'PlumbC';
-	src: url('../fonts/Plumb/PlumbC.ttf');
-	src: local('PlumbC'), local('PlumbC'),
+	src:
 		url('../fonts/Plumb/PlumbC.otf') format('opentype'),
-		url('../fonts/Plumb/PlumbC.ttf') format('truetype');
+		url('../fonts/Plumb/PlumbC.ttf') format('truetype'),
+		url('../fonts/Plumb/PlumbCondensed-Regular.woff') format('woff'),
+		url('../fonts/Plumb/PlumbCondensed-Regular.svg') format('svg'),
+		url('../fonts/Plumb/PlumbCondensed-Regular.eot');
+	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
     font-family: 'PlumbC-Bold';
-    src: url('../fonts/Plumb/PlumbC-Bold.ttf');
-    src: local('PlumbC-Bold'), local('PlumbC-Bold'),
+    src:
         url('../fonts/Plumb/PlumbC-Bold.otf') format('opentype'),
-        url('../fonts/Plumb/PlumbC-Bold.ttf') format('truetype');
+        url('../fonts/Plumb/PlumbC-Bold.ttf') format('truetype'),
+        url('../fonts/Plumb/PlumbCondensed-Bold.woff') format('woff'),
+        url('../fonts/Plumb/PlumbCondensed-Bold.svg') format('svg'),
+         url('../fonts/Plumb/PlumbCondensed-Bold.eot');  
+
     font-weight: 900;
     font-style: normal;
 }
