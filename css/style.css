@@ -215,6 +215,7 @@ margin-bottom: 6%;
 
 }
 .circle_img{
+	display: grid;
   cursor: pointer;
   -webkit-border-radius: 50%;
           border-radius: 50%;
