@@ -16,9 +16,7 @@ body{
 -moz-user-select: none;*/
 }
 
-img { 
-	pointer-events: none; 
-}
+
 
 .left-footprint{
 	width: 45px;
