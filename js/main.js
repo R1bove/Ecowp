@@ -33,7 +33,7 @@ function hideAllGirls() {
 }
 
 function showCurrentGirl() {
-    let currentScroll = $(window).scrollTop() - 500;
+    let currentScroll = $(window).scrollTop() - 300;
     let currentSection = getCurrentSectionInfo(currentScroll);
     if (currentSection && currentSection.sectionImage) {
         if (isElementHidden(currentSection.sectionImage)) {
